@@ -1,0 +1,49 @@
+&control
+! Input for some model
+!------ Initialization -------!
+ InitState=2
+ InitialCond='NoSample'
+ iRndSeed=608145984
+!------ Simulation Properties -------!
+ Model='tc'		 ! to identify the potential used
+ NumParticles=4
+ NumStates=4		 ! number of electronic states
+ NumSinglets=2
+ NumTriplets=2
+ zAllText=.true.     ! Output all text-based files
+ NumInitBasis=1
+!---- Stochastic Selection ----!
+ Stochastic = .false.
+ StochasticSwiss = .false.
+!-------- Integration and numerics --------!
+ TimeStep=4.13		    ! = 0.1 fs, timestep for integration
+ SimulationTime=8300	! integration time
+ MinTimeStep=0.001
+!-------- Spawning -------!
+!MultiSpawn=1		!number of spawns per event
+ MaxTraj=80		    !max number of trajectories
+! OMax=0.6
+! OMin_parent=0.000
+ SpawnCoupV=.false.
+ CSThresh=0.0100
+ SOCThresh=0.d0
+ PopToSpawn=0.000
+!CoupTimeStep=0.250
+!-------- Output -------!
+ zAllText=.false.
+ zXYZ=.true.
+ zCoupFile=.true.
+ zEDatFile=.true.
+ zNDatFile=.true.
+ zTrajFile=.false.
+ zAmpFile=.true.
+ zPotEnFile=.true.
+ zPCOlap=.true.
+ zSOCeff=.true.
+ zSOME=.true.
+/ !Atom type information below
+  3 ! number of atom types
+#Name  AtomicNum  AtomicWeight(amu) Width(1/bohr**2)
+H	1	1.0078400	4.700000	
+C	6	12.0110000	22.700000
+S	16	32.0650000	16.700000

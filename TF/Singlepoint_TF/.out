@@ -1,0 +1,140 @@
+
+
+|       ***********************************************************
+|       *                 TeraChem v1.9-2023.06-dev               *
+|       *                   Development Version                   *
+|       *           Chemistry at the Speed of Graphics!           *
+|       ***********************************************************
+|       * This program may only be used in connection with        *
+|       * a valid license from PetaChem, LLC. Use of this program *
+|       * or results thereof indicates acceptance of all terms    *
+|       * and conditions stated in the license and that a valid   *
+|       * license agreement between the user and PetaChem, LLC    *
+|       * exists. PetaChem, LLC does not warrant the correctness  *
+|       * of results or their suitability for any purpose.        *
+|       * Please email bugs, suggestions, and comments to         *
+|       *                  help@petachem.com                      *
+|       *                                                         *
+|       ***********************************************************
+
+
+|       ***********************************************************
+|       *  Compiled by bl22441      Mon 25 Sep 18:30:33 BST 2023  *
+|       *  Supported architecture SMs: 86                         *
+|       *  Build cuda_11.7.r11.7/compiler.31442593_0              *
+|       *  Git Version: 942f418e7ae7a97fcd5c42138df829025ea854eb  *
+|       ***********************************************************
+
+
+| Job started   Thu Jan 29 14:56:51 2026
+| On it045311 (available memory: 205643 MB)
+
+| ######################################### RUNTIME INFO ##########################################
+| /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/bin/terachem  --inputfile=.inp 
+
+|  NVRM version: NVIDIA UNIX x86_64 Kernel Module  580.82.07  Wed Aug 27 18:39:48 UTC 2025
+|  GCC version:  gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
+
+|  	linux-vdso.so.1 (0x00007ffce73e3000)
+|  	libcurl.so.4 => /lib/x86_64-linux-gnu/libcurl.so.4 (0x00007ff1ba8f3000)
+|  	libz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007ff1ba8d7000)
+|  	libmpi.so.12 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libmpi.so.12 (0x00007ff1b9a22000)
+|  	libdftbplus.so => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libdftbplus.so (0x00007ff1b96ef000)
+|  	libfsockets.so => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libfsockets.so (0x00007ff1b96e7000)
+|  	libxmlf90.so => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libxmlf90.so (0x00007ff1b96c0000)
+|  	libthcbox.so.1 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libthcbox.so.1 (0x00007ff1b8ddf000)
+|  	libOpenMM.so.7.5 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libOpenMM.so.7.5 (0x00007ff1b8a5d000)
+|  	libnvToolsExt.so.1 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libnvToolsExt.so.1 (0x00007ff1b8800000)
+|  	libgpubox.so.1 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libgpubox.so.1 (0x00007ff1b8a42000)
+|  	libtensorbox.so.1 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libtensorbox.so.1 (0x00007ff1b8a24000)
+|  	libiobox.so.1 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libiobox.so.1 (0x00007ff1b8a0e000)
+|  	libintbox.so.1 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libintbox.so.1 (0x00007ff1a921b000)
+|  	libsqmbox.so.1 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libsqmbox.so.1 (0x00007ff1a8ebd000)
+|  	libgridbox.so.1 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libgridbox.so.1 (0x00007ff1a8d74000)
+|  	libdftbox.so.1 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libdftbox.so.1 (0x00007ff1a8c93000)
+|  	libcibox.so.1 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libcibox.so.1 (0x00007ff1a8a48000)
+|  	libccbox.so.1 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libccbox.so.1 (0x00007ff1a8782000)
+|  	libsimbox.so.1 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libsimbox.so.1 (0x00007ff1a8762000)
+|  	liboptbox.so.1 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/liboptbox.so.1 (0x00007ff1a8725000)
+|  	libprotobuf.so.17 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libprotobuf.so.17 (0x00007ff1a842c000)
+|  	libcommbox.so.1 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libcommbox.so.1 (0x00007ff1a83b5000)
+|  	libssl.so.1.1 => /lib/x86_64-linux-gnu/libssl.so.1.1 (0x00007ff1a8322000)
+|  	libcrypto.so.1.1 => /lib/x86_64-linux-gnu/libcrypto.so.1.1 (0x00007ff1a804b000)
+|  	libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007ff1a8046000)
+|  	libcuda.so.1 => /lib/x86_64-linux-gnu/libcuda.so.1 (0x00007ff1a23fb000)
+|  	libcudart.so.11.0 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libcudart.so.11.0 (0x00007ff1a2000000)
+|  	libcublas.so.11 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libcublas.so.11 (0x00007ff198c00000)
+|  	libcufft.so.10 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libcufft.so.10 (0x00007ff190000000)
+|  	libcusparse.so.11 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libcusparse.so.11 (0x00007ff181800000)
+|  	libcusolver.so.11 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libcusolver.so.11 (0x00007ff173400000)
+|  	libstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007ff1731d4000)
+|  	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007ff1a2312000)
+|  	libiomp5.so => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libiomp5.so (0x00007ff172c00000)
+|  	libcilkrts.so.5 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libcilkrts.so.5 (0x00007ff172800000)
+|  	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007ff1a22f2000)
+|  	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007ff1725d7000)
+|  	/lib64/ld-linux-x86-64.so.2 (0x00007ff1ba9ba000)
+|  	libdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007ff1a22eb000)
+|  	libnghttp2.so.14 => /lib/x86_64-linux-gnu/libnghttp2.so.14 (0x00007ff1a22c1000)
+|  	libidn2.so.0 => /lib/x86_64-linux-gnu/libidn2.so.0 (0x00007ff1a1fdf000)
+|  	librtmp.so.1 => /lib/x86_64-linux-gnu/librtmp.so.1 (0x00007ff1a1fc0000)
+|  	libssh.so.4 => /lib/x86_64-linux-gnu/libssh.so.4 (0x00007ff1a1f52000)
+|  	libpsl.so.5 => /lib/x86_64-linux-gnu/libpsl.so.5 (0x00007ff1a22ab000)
+|  	libssl.so.3 => /lib/x86_64-linux-gnu/libssl.so.3 (0x00007ff1a1eae000)
+|  	libcrypto.so.3 => /lib/x86_64-linux-gnu/libcrypto.so.3 (0x00007ff172193000)
+|  	libgssapi_krb5.so.2 => /lib/x86_64-linux-gnu/libgssapi_krb5.so.2 (0x00007ff198bac000)
+|  	libldap-2.5.so.0 => /lib/x86_64-linux-gnu/libldap-2.5.so.0 (0x00007ff198b4c000)
+|  	liblber-2.5.so.0 => /lib/x86_64-linux-gnu/liblber-2.5.so.0 (0x00007ff1a1e9d000)
+|  	libzstd.so.1 => /lib/x86_64-linux-gnu/libzstd.so.1 (0x00007ff18ff31000)
+|  	libbrotlidec.so.1 => /lib/x86_64-linux-gnu/libbrotlidec.so.1 (0x00007ff1a1e8f000)
+|  	librt.so.1 => /lib/x86_64-linux-gnu/librt.so.1 (0x00007ff1a1e8a000)
+|  	libimf.so => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libimf.so (0x00007ff171d9b000)
+|  	libsvml.so => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libsvml.so (0x00007ff17078a000)
+|  	libirng.so => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libirng.so (0x00007ff170400000)
+|  	libintlc.so.5 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libintlc.so.5 (0x00007ff198ada000)
+|  	libifport.so.5 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libifport.so.5 (0x00007ff1a1e61000)
+|  	libifcoremt.so.5 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libifcoremt.so.5 (0x00007ff181691000)
+|  	libcublasLt.so.11 => /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/lib/libcublasLt.so.11 (0x00007ff15c400000)
+|  	libunistring.so.2 => /lib/x86_64-linux-gnu/libunistring.so.2 (0x00007ff172a56000)
+|  	libgnutls.so.30 => /lib/x86_64-linux-gnu/libgnutls.so.30 (0x00007ff15c215000)
+|  	libhogweed.so.6 => /lib/x86_64-linux-gnu/libhogweed.so.6 (0x00007ff198a92000)
+|  	libnettle.so.8 => /lib/x86_64-linux-gnu/libnettle.so.8 (0x00007ff18feeb000)
+|  	libgmp.so.10 => /lib/x86_64-linux-gnu/libgmp.so.10 (0x00007ff18160f000)
+|  	libkrb5.so.3 => /lib/x86_64-linux-gnu/libkrb5.so.3 (0x00007ff173109000)
+|  	libk5crypto.so.3 => /lib/x86_64-linux-gnu/libk5crypto.so.3 (0x00007ff18febc000)
+|  	libcom_err.so.2 => /lib/x86_64-linux-gnu/libcom_err.so.2 (0x00007ff18feb6000)
+|  	libkrb5support.so.0 => /lib/x86_64-linux-gnu/libkrb5support.so.0 (0x00007ff18fea8000)
+|  	libsasl2.so.2 => /lib/x86_64-linux-gnu/libsasl2.so.2 (0x00007ff1730ee000)
+|  	libbrotlicommon.so.1 => /lib/x86_64-linux-gnu/libbrotlicommon.so.1 (0x00007ff1730cb000)
+|  	libp11-kit.so.0 => /lib/x86_64-linux-gnu/libp11-kit.so.0 (0x00007ff15c0da000)
+|  	libtasn1.so.6 => /lib/x86_64-linux-gnu/libtasn1.so.6 (0x00007ff1730b3000)
+|  	libkeyutils.so.1 => /lib/x86_64-linux-gnu/libkeyutils.so.1 (0x00007ff18fea1000)
+|  	libresolv.so.2 => /lib/x86_64-linux-gnu/libresolv.so.2 (0x00007ff17309f000)
+|  	libffi.so.8 => /lib/x86_64-linux-gnu/libffi.so.8 (0x00007ff173092000)
+| #################################################################################################
+
+| Checking Amazon Cloud instance ID...   Not found
+| Cannot find license.dat file /opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/license.dat
+
+
+| TRYING THE NETWORK LICENSE...
+| Connecting to license server '54.208.252.40' port '8877'...
+| Connected!
+| Checking your license...
+
+| **************************************************************
+|  Greetings, Basile Curchod! You have 10 licenses in total
+|  IN USE: 3
+|  AVAILABLE: 7
+| **************************************************************
+
+/opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/bin/terachem[0x5b91a5]
+/opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/bin/terachem[0x630553]
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7f8cba800d90]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7f8cba800e40]
+/opt/ispg/terachem/2023.6/arch/intel2022.2.1-cuda11-mpich3.4.3-openmm7.5/bin/terachem[0x43c82e]
+Cannot open configuration file .inp
+DIE called at line number 500 in file terachem/params.cpp
+
+ Job terminated: Thu Jan 29 14:56:52 2026
+

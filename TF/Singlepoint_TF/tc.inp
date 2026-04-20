@@ -1,0 +1,25 @@
+basis			6-31Gs
+method			HF
+coordinates		tf_opt_cas.xyz
+
+charge			0
+spinmult		1
+
+convthre		1.0e-7
+threall			1.0e-13
+maxit			1000
+dcimaxiter		1000
+precision		mixed
+
+purify			no
+casscf			yes
+cassinglets		2
+castriplets		2
+closed			10
+active			3
+cassoc			yes
+
+casscfmaxiter	50
+
+run				energy
+end

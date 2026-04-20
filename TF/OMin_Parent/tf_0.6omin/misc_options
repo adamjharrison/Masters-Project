@@ -1,0 +1,30 @@
+basis                   6-31Gs
+method                  HF
+
+charge                  0
+spinmult                1
+
+convthre                1.0e-7
+threall                 1.0e-13
+maxit                   1000
+dcimaxiter              1000
+precision               mixed
+
+purify                  no
+casscf                  yes
+cassinglets             2
+castriplets             2
+closed                  10
+active                  3
+
+casscfmaxiter   50
+
+fms_gaims       yes
+gaims_nsing     2
+gaims_ntrip     2
+
+run                             energy
+
+tvarnac yes
+
+end
